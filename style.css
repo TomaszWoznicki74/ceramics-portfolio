@@ -1,3 +1,38 @@
-body{
-    font-family: 'Cormorant', serif;
+body {
+  font-family: "Cormorant", serif;
+}
+
+.navbar {
+  margin: 32px;
+}
+
+.navbar h1 {
+  display: inline-block;
+  margin: 0;
+  font-weight: 300;
+}
+
+.navigation {
+  display: inline-block;
+}
+
+.navigation ul {
+  margin-left: 32px;
+  padding: 0;
+  list-style: none;
+}
+
+.navigation ul li {
+  display: inline-block;
+}
+
+.navigation ul li a {
+  margin: 0 8px;
+  font-size: 20px;
+  font-weight: 300;
+  color: #000;
+  text-decoration: none;
+}
+.active{
+    border-bottom: 1px solid #000;
 }
